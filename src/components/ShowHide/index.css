@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  color: #ffffff;
+  font-family: roboto;
+}
+.bg-conatiner {
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  color: #dd1264;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+}
+.card-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #fddddb;
+  color: #000000;
+  border-radius: 10px;
+}
+.card-details {
+  color: #000000;
+}
