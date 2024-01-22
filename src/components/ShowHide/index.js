@@ -18,31 +18,33 @@ class ShowHide extends Component {
       <div className="bg-conatiner">
         <h1 className="heading">Show/Hide</h1>
         <div className="card-container">
-          <div>
+          <div className="button-container">
             <button onClick={this.onFirstbtn} type="button" className="btn">
               Show/Hide Firstname
             </button>
-
-            {isFirst ? (
-              <div className="card-item">
-                <p className="card-details">Joe</p>
-              </div>
-            ) : (
-              <span />
-            )}
+            <div>
+              {isFirst ? (
+                <div className="card-item">
+                  <p className="card-details">Joe</p>
+                </div>
+              ) : (
+                <span />
+              )}
+            </div>
           </div>
-          <div>
+          <div className="button-container">
             <button onClick={this.onLastbtn} type="button" className="btn">
               Show/Hide Lastname
             </button>
-
-            {isLast ? (
-              <div className="card-item">
-                <p className="card-details">Jonas</p>
-              </div>
-            ) : (
-              <span />
-            )}
+            <div>
+              {isLast ? (
+                <div className="card-item">
+                  <p className="card-details">Jonas</p>
+                </div>
+              ) : (
+                <span />
+              )}
+            </div>
           </div>
         </div>
       </div>
